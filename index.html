@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <script src="https://kit.fontawesome.com/9080b03655.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <title>Music Shop - Home</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="./"><strong>Your</strong> <span class="blue-dot"></span> Logo</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./about.html">About us</a></li>
+            <li><a href="#best-sellers">Best Sellers</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+            <li id="menu-icon"><i class="fa fa-bars fa-lg"></i></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <section class="hero">
+      <picture>
+        <source media="(max-width: 576px)" srcset="./images/drum-mobile.jpg">
+        <source media="(max-width: 960px)" srcset="./images/drum-tablet.jpg">
+        <img src="./images/drum-desktop.jpg" alt="Hero image - drum kit">
+      </picture>
+      <div class="hero-content">
+        <div class="container">
+          <h1>Explore our new Drumkit series</h1>
+          <p>Explore a huge range of Acoustic and Electronic Drum Kits from leading brands like Mapex, Pearl & more</p>
+          <button>See all drumkits</button>
+        </div>
+      </div>
+    </section>
+    <article id="best-sellers">
+      <h2>Best sellers</h2>
+      <hr>
+      <section class="product-section container">
+        <div class="product new">
+          <img src="./images/gibson.jpg" alt="Product Gibson Les Paul">
+          <div class="product-info">
+            <h3 class="categories">Guitars, Gibson, Electric</h3>
+            <h4 class="title">Gibson Les Paul</h4>
+            <h5 class="price">£2,199.00</h5>
+            <button>Add to bag</button>
+          </div>
+        </div>
+        <div class="product new">
+          <img src="./images/yamaha-keyboard.jpg" alt="Product Yamaha Electric Piano">
+          <div class="product-info">
+            <h3 class="categories">Pianos, Keyboards, Yamaha</h3>
+            <h4 class="title">Yamaha Electric Piano</h4>
+            <h5 class="price">£879.00</h5>
+            <button>Add to bag</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./images/pedal.jpg" alt="Product Bass Drive Guitar Pedal">
+          <div class="product-info">
+            <h3 class="categories">Effects, Accessories, Guitar Pedal</h3>
+            <h4 class="title">Bass Drive Guitar Pedal</h4>
+            <h5 class="price"><span class="discounted-price">£67.99</span> <span class="original-price">£89.99</span></h5>
+            <button>Add to bag</button>
+          </div>
+        </div>
+      </section>
+    </article>
+    <aside id="newsletter">
+      <h3>Newsletter Signup</h3>
+      <p>Subscribe now and don't miss a single deal!</p>
+      <form action="https://upload.wikimedia.org/wikipedia/commons/7/75/Cute_grey_kitten.jpg">
+        <input type="email" placeholder="Your email..." name="email">
+        <input type="submit" value="Subscribe">
+      </form>
+    </aside>
+
+    <footer>
+      <section class="bottom-nav container">
+        <nav>
+          <ul>
+            <li class="list-title">Categories</li>
+            <li><a href="#">Guitars</a></li>
+            <li><a href="#">Keyboards</a></li>
+            <li><a href="#">Drumkits</a></li>
+            <li><a href="#">Effects</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+          <ul>
+            <li class="list-title">About Us</li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Awards</a></li>
+            <li><a href="#">Stores</a></li>
+          </ul>
+          <ul>
+            <li class="list-title">Social Media</li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+          <ul>
+            <li class="list-title">Customer Service</li>
+            <li><a href="#">Live Chat</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Delivery & Returns</a></li>
+            <li><a href="#">Finance</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="copyright-text">
+        2023 &copy; All Rights Reserved
+      </section>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+@media (max-width: 960px) {
+  .container {
+    max-width: 92%;
+  }
+
+  header .logo {
+    font-size: 24px;
+  }
+
+  header nav ul li {
+    display: none;
+  }
+
+  #menu-icon {
+    display: inline-block;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 46px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+  }
+
+  .hero-content button {
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    width: 196px;
+  }
+
+  article#best-sellers {
+    padding-top: 50px;
+  }
+
+  article#best-sellers .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  article#best-sellers h2 {
+    font-size: 28px;
+    letter-spacing: 0.7px;
+    line-height: 38px;
+    margin: 0 0 12px 0;
+  }
+
+  article#best-sellers .product-section {
+    margin-top: 48px;
+  }
+
+  article#best-sellers .product-section .product {
+    min-width: 220px; 
+    margin: 17px 8px;
+  }
+
+  article#best-sellers .product-section .product .product-info .categories {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+
+  article#best-sellers .product-section .product .product-info .title {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    margin-bottom: 8px;
+  }
+
+  article#best-sellers .product-section .product .product-info .price {
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+  }
+
+  article#best-sellers .product-section .product .product-info .price .original-price {
+    font-size: 9px;
+    letter-spacing: 0.23px;
+    line-height: 30px;
+    display: block;
+    line-height: 14px;
+  }
+
+  article#best-sellers .product-section .product .product-info button {
+    height: 36px;
+    width: 193px;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+  }
+
+  article#best-sellers .product-section .product.new::before {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.27px;
+    padding: 0px 12px;
+  }
+
+  aside#newsletter {
+    width: 100%;
+    max-width: 100%;
+    padding: 50px 0;
+    margin: 50px auto;
+  }
+
+  aside#newsletter h3 {
+    font-size: 22px;
+    letter-spacing: 0.55px;
+    line-height: 42px;
+  }
+
+  aside#newsletter p {
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 42px;
+  }
+
+  footer .bottom-nav {
+    padding: 50px 0;
+  }
+
+  footer .container {
+    max-width: 90%;
+  }
+}

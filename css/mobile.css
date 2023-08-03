@@ -1,0 +1,123 @@
+@media(max-width: 576px) {
+
+  .container {
+    width: 100%;
+  }
+
+  header .logo {
+    font-size: 18px;
+  }
+
+  header .logo .blue-dot {
+    width: 7px;
+    height: 7px;
+  }
+
+  section .hero-content {
+    position: static;
+  }
+
+  .hero-content h1 {
+    color: #000;
+    font-size: 32px;
+    letter-spacing: 0.8px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 32px;
+    margin-top: 27px;
+  }
+
+  .hero-content button {
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    width: 196px;
+    margin: auto;
+  }
+
+  .hero-content p {
+    display: none;
+  }
+
+  article#best-sellers {
+    padding-top: 64px;
+  }
+  
+  article#best-sellers .product-section .product {
+    width: 82%;
+    max-width: 360px;
+  }
+
+  article#best-sellers h2 {
+    font-size: 36px;
+    letter-spacing: 0.6px;
+    line-height: 38px;
+    margin: 0 0 16px 0;
+  }
+
+  article#best-sellers hr {
+    border-top: 4px solid #3E50E5;
+    width: 40px;
+  }
+
+  article#best-sellers .product-section {
+    margin-top: 42px;
+  }
+  
+  article#best-sellers .product-section .product .product-info .categories {
+    margin-bottom: 7px;
+  }
+  
+  article#best-sellers .product-section .product .product-info .title {
+    font-size: 14px;
+    letter-spacing: 0.54px;
+    line-height: 18px;
+  }
+  
+  article#best-sellers .product-section .product .product-info .price {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  
+  article#best-sellers .product-section .product .product-info .price .original-price {
+    font-size: 11px;
+    letter-spacing: 0.28px;
+    line-height: 20px;
+  }
+  
+  article#best-sellers .product-section .product .product-info button {
+    height: 36px;
+    width: 146px;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+  }
+
+  aside#newsletter {
+    padding: 44px 0;
+    margin: 60px auto;
+  }
+
+  aside#newsletter form input[type=email] {
+    max-width: 65%;
+  }
+  
+  aside#newsletter form input[type=submit] {
+    max-width: 30%;
+  }
+
+  footer nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .bottom-nav ul {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  footer .bottom-nav ul:last-of-type {
+    margin-bottom: 0;
+  }
+}
