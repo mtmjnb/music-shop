@@ -167,7 +167,6 @@ article#best-sellers hr {
   padding: 0 8px;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .product {
