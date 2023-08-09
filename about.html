@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/desktop.css">
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/mobile.css">
+    <script src="./js/carousel.js"></script>
+    <script src="./js/tabs.js"></script>
     <script src="https://kit.fontawesome.com/9080b03655.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
     <title>Music Shop - About</title>
@@ -27,6 +30,70 @@
         </nav>
       </div>
     </header>
+
+    <div class="carousel">
+      <div class="slide">
+        <img src="./images/carousel/band.jpg" alt="Band">
+      </div>
+      <div class="slide">
+        <img src="./images/carousel/drums.jpg" alt="Drums">
+      </div>
+      <div class="slide">
+        <img src="./images/carousel/guitar.jpg" alt="Guitar">
+      </div>
+      <div class="slide">
+        <img src="./images/carousel/keyboard.jpg" alt="Keyboard">
+      </div>
+      <button class="btn btn-next"></button>
+      <button class="btn btn-prev"></button>
+    </div>
+
+    <section class="container">
+      <div class="tab">
+        <button class="tablinks active" id="guitar">Guitars</button>
+        <button class="tablinks" id="drum">Drums</button>
+        <button class="tablinks" id="keyboard">Keyboards</button>
+      </div>      
+      <!-- Tab content -->
+      <div id="guitar-details" class="tabcontent first ">
+        <h3>Guitars</h3>
+        <hr>
+        <p>Our guitars</p>
+        <section class="flex-container">
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+        </section>
+      </div>          
+      <div id="drum-details" class="tabcontent">
+        <h3>Drums</h3>
+        <hr>
+        <p>Our Drumkits</p>
+        <section class="flex-container">
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+        </section>
+      </div>      
+      <div id="keyboard-details" class="tabcontent">
+        <h3>Keyboards</h3>
+        <hr>
+        <p>Our Keyboards</p>
+        <section class="flex-container">
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+          <div class="flex-item">Image</div>
+        </section>
+      </div>
+    </section>
 
     <section class="contact-details">
       <div class="address">

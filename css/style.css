@@ -397,6 +397,7 @@ footer .copyright-text {
   font-size: 20px;
   font-family: Nunito, sans-serif;
   padding: 40px;
+  flex-wrap: wrap;
 }
 
 address {
