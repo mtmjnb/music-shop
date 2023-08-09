@@ -41,6 +41,11 @@ header .container {
   vertical-align: middle;
 }
 
+header nav {
+  display: flex;
+  align-items: center;
+}
+
 header nav ul {
   display: flex;
   list-style: none;
