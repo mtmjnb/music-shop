@@ -5,12 +5,17 @@
   }
 
   header .logo {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   header .logo .blue-dot {
-    width: 7px;
-    height: 7px;
+    width: 5px;
+    height: 5px;
+  }
+
+  header nav ul li a {
+    font-size: 10px;
+    margin-right: 12px;
   }
 
   section .hero-content {
